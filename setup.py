@@ -41,6 +41,7 @@ setup(name="magic-wormhole",
           ]
       },
       install_requires=[
+          "typing",
           "spake2==0.7", "pynacl",
           "six",
           "twisted[tls]",
